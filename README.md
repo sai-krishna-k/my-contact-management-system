@@ -19,10 +19,10 @@ Install Tkinter
 
 ****Create a Database and a Table****
 
-Create a database with this name: "contact_management"
-☛create database contact_management;
+Create a database with this name: "contact_management_system"
+☛create database contact_management_system;
 
-Create a table "contact_register_system" under the "contact_management" database.
+Create a table "contact_register_system" under the "contact_management_system" database.
 ☛CREATE TABLE contact_register_system (
   first_name VARCHAR(255) NOT NULL,
   last_name VARCHAR(255) NOT NULL,
@@ -38,7 +38,7 @@ Create a table "contact_register_system" under the "contact_management" database
   address_postal_code CHAR(7) NOT NULL
 );
 
-Create a table "users" under the "contact_management" database.
+Create a table "users" under the "contact_management_system" database.
 ☛create table users(
 	username VARCHAR(10) NOT NULL,
 	password VARCHAR(10) NOT NULL
